@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+:root {
+  font-family: "Inter", "Segoe UI", Arial, sans-serif;
+  color: #1c1917;
+  background: #ffffff;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  font-optical-sizing: auto;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 5rem;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+button,
+a,
+select {
+  -webkit-tap-highlight-color: transparent;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:focus-visible,
+a:focus-visible,
+select:focus-visible {
+  outline: 2px solid #92400e;
+  outline-offset: 3px;
+}
+
+img {
+  display: block;
+}
+
+::selection {
+  background: #e8d8bd;
+  color: #292524;
+}
